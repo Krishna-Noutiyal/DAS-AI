@@ -1,0 +1,37 @@
+import pandas as pd
+
+def load_dataset(file_path: str) -> pd.DataFrame:
+    """
+    Load the dataset from a CSV file.
+
+    Args:
+        file_path (str): The path to the CSV file.
+
+    Returns:
+        pd.DataFrame: A pandas DataFrame containing the dataset.
+    """
+    try:
+        dataset = pd.read_csv(file_path)
+        return dataset
+    except FileNotFoundError:
+        raise FileNotFoundError(f"The file at {file_path} was not found.")
+    except Exception as e:
+        raise RuntimeError(f"An error occurred while loading the dataset: {e}")
+
+def validate_dataset(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Validate that the dataset contains the required columns, including 'das_score'.
+
+    Args:
+        df (pd.DataFrame): The input DataFrame containing depression, anxiety, stress, and das scores.
+
+    Returns:
+        pd.DataFrame: The validated DataFrame.
+    """
+    required_columns = ['depression_score', 'anxiety_score', 'stress_score', 'das_score']
+    missing_columns = [col for col in required_columns if col not in df.columns]
+
+    if missing_columns:
+        raise ValueError(f"The DataFrame is missing the following required columns: {', '.join(missing_columns)}")
+
+    return df
