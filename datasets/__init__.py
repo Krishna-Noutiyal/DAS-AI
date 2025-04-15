@@ -13,6 +13,6 @@ Files:
 Author: [Your Name or Organization]
 """
 
-from .dataset import load_dataset, validate_dataset
+from .dataset import load_dataset, validate_dataset, show_datasets
 
-__all__ = ["load_dataset", "validate_dataset"]
+__all__ = ["load_dataset", "validate_dataset","show_datasets"]
