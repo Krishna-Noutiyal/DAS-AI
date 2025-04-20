@@ -8,7 +8,7 @@ This directory contains multiple models of randome forests. But due to the size 
 
 ---
 
-This model is trained on the [categorized_v4_numeric.csv](data\categorized_v4_numeric.csv) dataset. This model is trained with native multivariate random forest algorigm without using multi output classifier provided by sklearn. The model is trained with 100 estimators. The model is trained and tested with 8:2 ration of data. 
+This model is trained on the [categorized_v4_numeric.csv](data\categorized_v4_numeric.csv) dataset. This model is trained with native multivariate random forest algorigm without using multi output classifier provided by sklearn. The model is trained with 100 estimators. The model is trained and tested with 8:2 ration of data.
 
 ## rfv2
 
