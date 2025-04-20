@@ -1,8 +1,8 @@
 # Random Forest Models
 
-This directory contains multiple models of randome forests. But due to the size limit model v2 and v3 are moved to onedrive storage. The link is provided below to download the models with its features.
+This directory contains multiple models of randome forests. But due to the size limit all of the models are moved to onedrive storage. The link is provided below to download the models with its features.
 
- > <https://1drv.ms/u/c/d01d77966552c1dc/EdFLS-48g89PqS9qu8Wjw2oBObilidYRE9QovuKzyOZU_g?e=hfkwTQ>
+ > <https://1drv.ms/u/c/d01d77966552c1dc/EQ4w9U80kj5NnP6VyGyNT30BZG9kiFKK1-PGHRLDSC9bDA?e=vQM1HR>
 
 ## rfv1
 
