@@ -1,0 +1,16 @@
+
+Results for depression_score:
+Mean Absolute Error: 7.918077461154794e-07
+R² Score: 0.9999999999994335
+
+Results for anxiety_score:
+Mean Absolute Error: 4.2506737206040695e-08
+R² Score: 0.999999999999956
+
+Results for stress_score:
+Mean Absolute Error: 4.6473779923717284e-08
+R² Score: 0.9999999999999606
+
+Results for das_score:
+Mean Absolute Error: 0.25320045155408816
+R² Score: 0.9997240430576955
