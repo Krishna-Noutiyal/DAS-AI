@@ -1,6 +1,6 @@
 # Random Forest Models
 
-This directory contains multiple models of randome forests. But due to the size limit all of the models are moved to onedrive storage. The link is provided below to download the models with its features.
+This directory contains multiple ML models of random forest regression algorithms trained on different datasets. But due to the size limit, all of the models are moved to OneDrive storage. The link is provided below to download the models with its features.
 
  > <https://1drv.ms/u/c/d01d77966552c1dc/EQ4w9U80kj5NnP6VyGyNT30BZG9kiFKK1-PGHRLDSC9bDA?e=vQM1HR>
 
@@ -14,10 +14,10 @@ This model is trained on the [categorized_v4_numeric.csv](data\categorized_v4_nu
 
 ---
 
-Similar to rfv2 but the dataset is standardized using StanderdScaler from sklearn. Better performance is achieved then rfv1
+Similar to rfv2, but the dataset is standardised using StandardScaler from sklearn. Better performance is achieved than rfv1
 
 ## rfv3
 
 ---
 
-Similar to rfv2 but the dataset is standardized using MinMaxScaler from sklearn. Better performance is achieved compared to rfv2.
+Similar to rfv2, but the dataset is standardised using MinMaxScaler from sklearn. Better performance is achieved compared to rfv2.
